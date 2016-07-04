@@ -17,34 +17,44 @@
 body{
 	background: gray;
 }
+ul{
+	display: inline-block;
+	height: 35px;
+	margin-left: 440px;	
+}
 
 li{
 	display: inline-block;
-	float: right;
-	margin-left: 15px;
 	height: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
 	line-height: 35px;
-	padding-left: 5px;
-	padding-right: 5px;
 	color: #60b5ed;
 }
-
 li:hover{
 	background-color: #4eabda;
 	color: white;
 }
+
 .minhas{
+	display: inline-block;
+	width: 185px;
+	line-height: 35px;
+	padding-left: 5px;
+	padding-right: 5px;
 	border-left: 1px solid #4eabda;
-	padding-left: 45px;
+	text-indent: 30px;
+	text-align: right;
 }
 
 .ola{
-	margin-right: 20px;
-}
-.flag{
-	position: relative;
-	top: 5px; 
-    right: 20px;    
+	display: inline-block;
+	width: 160px;
+	line-height: 35px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #4eabda;
+	
 }
 
 span{
@@ -59,7 +69,7 @@ span{
 	font-family: "Helvetica Neue";
 }
 
-.haeder{
+nav{
 	width: 1215px;
 	height: 35px;
 	margin: margin: 0 auto;
@@ -69,11 +79,8 @@ span{
 .top{
 	width: 560px;
 	height: 62px;
-	/*margin: 0 auto;*/
-	margin-top: 250px;
-	margin-left: 353px;
+	border-bottom: 2px solid #b9c5ad;
 	margin-bottom: 2px;
-	background-color: rgba(0,0,0,0.6);
 	text-align: center;
 	color: white;
 }
@@ -90,9 +97,8 @@ h2{
 }
 .content{
 	width: 560px;
-	height: 549px;
 	margin-left: 353px;
-	/*margin: 0 auto;*/
+	margin-top: 213px;
 	background-color: rgba(0,0,0,0.6);
 	position: absolute;
 }
@@ -152,4 +158,5 @@ p{
 .text_bottom{
 	margin-left: -30px;
 	margin-right: 120px;
+	margin-bottom: 20px;
 }
